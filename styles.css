@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.box{
+	width:100%;
+	display:flex;
+	background:#6e072d;
+	color:#fff;
+	
+	
+}
+
+.box1,.box2,.box3,.box4{
+	flex-basis:20%;
+	border-right:1px solid white;
+	padding:2rem;
+}
+.box3{
+	
+	display:flex;
+	gap:10%;
+	justify-content: space-between;
+}
+.box3 div{
+	flex-basis:50%;
+}
